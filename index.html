@@ -1,0 +1,2217 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- ══ SEO CORE ══ -->
+<title>Gartengestaltung Karlsruhe | Gärtnerei Stoll – Anlage, Pflege & Rosen</title>
+<meta name="description" content="Gärtnerei Stoll – Gartengestaltung in Karlsruhe-Durlach. Neuanlage, Umgestaltung, Gartenpflege & Schnittblumen aus eigenem Anbau. Persönliche Beratung seit über 25 Jahren. ☎ (0721) 41384"/>
+<meta name="keywords" content="Gartengestaltung Karlsruhe, Gartenpflege Karlsruhe, Gärtner Karlsruhe Durlach, Gartenanlage Karlsruhe, Rosen kaufen Karlsruhe, Heckenschnitt Karlsruhe"/>
+<meta name="geo.region" content="DE-BW"/>
+<meta name="geo.placename" content="Karlsruhe"/>
+<meta name="geo.position" content="48.9981;8.4718"/>
+<link rel="canonical" href="http://www.gartengestaltung-stoll.de/"/>
+<meta name="robots" content="index,follow"/>
+
+<!-- ══ OG TAGS ══ -->
+<meta property="og:title" content="Gartengestaltung Karlsruhe | Gärtnerei Stoll"/>
+<meta property="og:description" content="Familiengeführte Gärtnerei in Karlsruhe-Durlach. Gartengestaltung, Gartenpflege & Rosen aus eigenem Anbau seit über 25 Jahren."/>
+<meta property="og:type" content="website"/>
+<meta property="og:locale" content="de_DE"/>
+<meta property="og:url" content="http://www.gartengestaltung-stoll.de/"/>
+
+<!-- ══ SCHEMA.ORG ══ -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":["LandscapingBusiness","LocalBusiness"],
+  "name":"Gartengestaltung Stoll",
+  "description":"Familiengeführte Gärtnerei in Karlsruhe-Durlach. Gartengestaltung, Gartenpflege, Schnittblumen und Rosen aus eigenem Anbau seit über 25 Jahren.",
+  "url":"http://www.gartengestaltung-stoll.de",
+  "telephone":"+49-721-41384",
+  "email":"info@gartengestaltung-stoll.de",
+  "address":{"@type":"PostalAddress","streetAddress":"Im Emsbühl 1","addressLocality":"Karlsruhe","addressRegion":"Baden-Württemberg","postalCode":"76227","addressCountry":"DE"},
+  "geo":{"@type":"GeoCoordinates","latitude":48.9981,"longitude":8.4718},
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"17:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"13:00"}
+  ],
+  "areaServed":["Karlsruhe","Karlsruhe-Durlach","Ettlingen","Rheinstetten","Pfinztal","Stutensee","Bruchsal","Rastatt","Malsch","Grötzingen","Wolfartsweier","Stupferich","Palmbach","Berghausen","Hagsfeld","Neureut","Mühlburg","Knielingen"],
+  "priceRange":"€€",
+  "hasMap":"https://maps.google.com/?q=Im+Emsbühl+1,+76227+Karlsruhe"
+}
+</script>
+
+<!-- ══ FONTS ══ -->
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+
+<style>
+/* ══════════════════════════════
+   DESIGN TOKENS
+══════════════════════════════ */
+:root {
+  /* Backgrounds – 3 klare Ebenen */
+  --void:           #060E08;   /* tiefstes Dunkel – Hero, Footer */
+  --base:           #0C1710;   /* Haupt-Body */
+  --surface:        #131F17;   /* Mittelebene – USP, FAQ, Mehrwert */
+  --layer:          #1A2B1E;   /* Karten */
+  --layer-2:        #233624;   /* Erhöhte Karten, Formulare */
+
+  /* Gold-Akzent */
+  --primary:        #C49B5B;   /* botanisches Gold */
+  --primary-hover:  #D8AE6E;
+  --primary-glow:   rgba(196,155,91,.24);
+  --primary-subtle: rgba(196,155,91,.08);
+
+  /* Grün-Akzent */
+  --secondary:      #4E9068;
+
+  /* Text – 3 Gewichtungen mit gesicherten Kontrasten */
+  --text-main:      #F0E8D5;   /* Haupt-Text ≥15:1 auf void */
+  --text-secondary: #C0B8A6;   /* Body-Text ≥6:1 auf allen Ebenen */
+  --text-muted:     #8A8276;   /* Sekundär ≥4.5:1 auf void/base */
+
+  /* Borders – jetzt sichtbar */
+  --border:         rgba(240,232,213,.10);
+  --border-m:       rgba(240,232,213,.20);
+  --border-strong:  rgba(240,232,213,.32);
+
+  /* System */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --ease:         cubic-bezier(.19,1,.22,1);
+  --ease-s:       cubic-bezier(.4,0,.2,1);
+  --t-fast:       .18s;
+  --t-mid:        .38s;
+  --t-slow:       .75s;
+  --radius:       4px;
+  --radius-l:     10px;
+}
+
+/* ══════════════════════════════
+   RESET & BASE
+══════════════════════════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:var(--base);
+  color:var(--text-main);
+  font-family:var(--font-body);
+  font-weight:300;
+  font-size:clamp(15px,1.1vw,17px);
+  line-height:1.7;
+  overflow-x:hidden;
+  cursor:none;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+ul{list-style:none}
+::selection{background:var(--primary-glow);color:var(--text-main)}
+
+/* ══════════════════════════════
+   CUSTOM CURSOR
+══════════════════════════════ */
+@media(hover:hover){
+  .cursor-dot,.cursor-ring{
+    position:fixed;top:0;left:0;pointer-events:none;z-index:9999;
+    border-radius:50%;will-change:transform;
+  }
+  .cursor-dot{
+    width:10px;height:10px;background:var(--primary);
+    transition:width .15s,height .15s,background .15s;
+  }
+  .cursor-ring{
+    width:34px;height:34px;border:1.5px solid var(--primary);opacity:.5;
+    transition:transform .13s cubic-bezier(.25,.46,.45,.94),
+               width .2s,height .2s,opacity .2s;
+  }
+  body.link-hover .cursor-dot{width:18px;height:18px;background:var(--primary-hover)}
+  body.link-hover .cursor-ring{width:52px;height:52px;opacity:.2}
+}
+
+/* ══════════════════════════════
+   SCROLL REVEAL
+══════════════════════════════ */
+[data-reveal]{opacity:0;transition:opacity var(--t-slow) var(--ease),transform var(--t-slow) var(--ease)}
+[data-reveal="up"]{transform:translateY(36px)}
+[data-reveal="left"]{transform:translateX(-36px)}
+[data-reveal="right"]{transform:translateX(36px)}
+[data-reveal="scale"]{transform:scale(.94)}
+[data-reveal].revealed{opacity:1;transform:none}
+[data-delay="1"]{transition-delay:.1s}
+[data-delay="2"]{transition-delay:.2s}
+[data-delay="3"]{transition-delay:.32s}
+[data-delay="4"]{transition-delay:.46s}
+[data-delay="5"]{transition-delay:.62s}
+
+/* ══════════════════════════════
+   TYPOGRAPHY HELPERS
+══════════════════════════════ */
+.label{
+  font-family:var(--font-body);font-weight:500;
+  font-size:clamp(10px,.75vw,12px);letter-spacing:.18em;
+  text-transform:uppercase;color:var(--primary);
+}
+.display{font-family:var(--font-display);font-weight:600;line-height:1.1}
+.section-title{
+  font-family:var(--font-display);
+  font-size:clamp(2rem,3.5vw,3rem);
+  font-weight:600;line-height:1.15;
+  letter-spacing:-.01em;
+}
+.section-sub{
+  font-size:clamp(.95rem,1.1vw,1.1rem);
+  color:var(--text-secondary);max-width:520px;line-height:1.75;
+}
+
+/* ══════════════════════════════
+   BUTTONS
+══════════════════════════════ */
+.btn{
+  display:inline-flex;align-items:center;gap:.55rem;
+  padding:.9rem 2rem;border-radius:var(--radius);
+  font-family:var(--font-body);font-weight:500;
+  font-size:.9rem;letter-spacing:.02em;
+  transition:all var(--t-mid) var(--ease);
+  position:relative;overflow:hidden;
+}
+.btn::before{
+  content:'';position:absolute;inset:0;
+  background:rgba(255,255,255,.07);
+  transform:translateX(-101%);
+  transition:transform var(--t-mid) var(--ease);
+}
+.btn:hover::before{transform:translateX(0)}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{
+  background:var(--primary);color:var(--void);
+}
+.btn-primary:hover{
+  background:var(--primary-hover);
+  box-shadow:0 8px 28px var(--primary-glow);
+}
+.btn-outline{
+  border:1.5px solid var(--border-m);color:var(--text-main);
+}
+.btn-outline:hover{border-color:var(--primary);color:var(--primary)}
+.btn-arrow::after{content:'→';transition:transform var(--t-fast) var(--ease)}
+.btn:hover.btn-arrow::after{transform:translateX(4px)}
+.btn-micro{
+  font-size:.8rem;color:var(--text-secondary);margin-top:.6rem;
+  display:block;text-align:center;
+}
+
+/* ══════════════════════════════
+   LAYOUT
+══════════════════════════════ */
+.container{width:min(1180px,92%);margin:0 auto}
+.section{padding:clamp(72px,8vw,120px) 0}
+.section-alt{background:var(--void)}
+.section-surface{background:var(--surface)}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,4vw,72px);align-items:center}
+.divider{height:1px;background:var(--border);margin:clamp(32px,4vw,60px) 0}
+
+/* ══════════════════════════════
+   NAVIGATION
+══════════════════════════════ */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  padding:1.4rem 0;
+  transition:background var(--t-mid) var(--ease),
+             padding var(--t-mid) var(--ease),
+             border-color var(--t-mid) var(--ease);
+  border-bottom:1px solid transparent;
+}
+nav.stuck{
+  background:rgba(6,14,8,.92);
+  backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
+  padding:.85rem 0;
+  border-bottom-color:var(--border-m);
+}
+.nav-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  width:min(1180px,92%);margin:0 auto;
+}
+.nav-brand{display:flex;flex-direction:column;gap:0}
+.nav-brand-name{
+  font-family:var(--font-display);font-size:1.2rem;
+  font-weight:600;letter-spacing:.01em;line-height:1;
+}
+.nav-brand-sub{
+  font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--primary);margin-top:.15rem;
+}
+.nav-links{display:flex;align-items:center;gap:2rem}
+.nav-links a{
+  font-size:.85rem;font-weight:400;color:var(--text-secondary);
+  transition:color var(--t-fast);letter-spacing:.02em;
+}
+.nav-links a:hover{color:var(--text-main)}
+.nav-actions{display:flex;align-items:center;gap:.8rem}
+.nav-tel{
+  font-size:.82rem;font-weight:500;color:var(--primary);
+  border:1px solid var(--border-m);padding:.45rem 1rem;
+  border-radius:var(--radius);transition:all var(--t-fast);
+  white-space:nowrap;
+}
+.nav-tel:hover{border-color:var(--primary);background:var(--primary-glow)}
+.nav-cta{
+  background:var(--primary);color:var(--void);
+  padding:.5rem 1.2rem;border-radius:var(--radius);
+  font-size:.82rem;font-weight:500;
+  transition:all var(--t-fast);white-space:nowrap;
+}
+.nav-cta:hover{background:var(--primary-hover);transform:translateY(-1px)}
+.burger{
+  display:none;flex-direction:column;gap:5px;
+  width:28px;padding:4px 0;cursor:pointer;
+}
+.burger span{
+  display:block;height:1.5px;background:var(--text-main);
+  transition:all var(--t-mid) var(--ease);transform-origin:center;
+}
+.burger.open span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+.burger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+.burger.open span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+.mobile-menu{
+  position:fixed;inset:0;background:var(--void);z-index:999;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:2rem;opacity:0;pointer-events:none;
+  transition:opacity var(--t-mid) var(--ease);
+}
+.mobile-menu.open{opacity:1;pointer-events:all}
+.mobile-menu a{
+  font-family:var(--font-display);font-size:clamp(1.6rem,5vw,2.4rem);
+  font-weight:600;color:var(--text-main);
+  transition:color var(--t-fast);
+}
+.mobile-menu a:hover{color:var(--primary)}
+.mobile-menu .mob-tel{
+  margin-top:1rem;font-size:1.1rem;color:var(--primary);font-weight:500;
+}
+
+/* ══════════════════════════════
+   HERO
+══════════════════════════════ */
+.hero{
+  min-height:100svh;display:flex;align-items:center;
+  position:relative;overflow:hidden;
+  background:var(--void);
+  padding:120px 0 80px;
+}
+.hero-bg{
+  position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 60% 80% at 70% 50%, rgba(78,144,104,.13) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 60% at 30% 20%, rgba(196,155,91,.07) 0%, transparent 60%);
+}
+.hero-botanical{
+  position:absolute;right:-2%;top:5%;width:clamp(320px,40vw,560px);
+  opacity:.18;pointer-events:none;
+}
+.hero-grid{
+  display:grid;grid-template-columns:1.1fr .9fr;
+  gap:clamp(32px,4vw,80px);align-items:center;
+  position:relative;z-index:2;
+}
+.hero-eyebrow{margin-bottom:1.4rem}
+.hero-h1{
+  font-family:var(--font-display);
+  font-size:clamp(2.6rem,5.5vw,5rem);
+  font-weight:700;line-height:1.06;
+  letter-spacing:-.02em;margin-bottom:1.4rem;
+}
+.hero-h1 em{
+  font-style:italic;color:var(--primary);display:block;
+}
+.hero-sub{
+  font-size:clamp(1rem,1.3vw,1.15rem);color:var(--text-secondary);
+  max-width:480px;line-height:1.75;margin-bottom:2.2rem;
+}
+.hero-ctas{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2.8rem}
+.hero-trust{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap}
+.hero-trust-item{
+  display:flex;align-items:center;gap:.4rem;
+  font-size:.82rem;color:var(--text-secondary);
+}
+.hero-trust-item svg{flex-shrink:0}
+.trust-sep{width:1px;height:14px;background:var(--border-m);flex-shrink:0}
+.hero-visual{
+  position:relative;
+  border-radius:var(--radius-l);overflow:hidden;
+}
+.hero-photo{
+  width:100%;aspect-ratio:4/5;
+  background:var(--layer);
+  border-radius:var(--radius-l);
+  position:relative;overflow:hidden;
+  border:1px solid var(--border-m);
+}
+.hero-photo::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(to top, rgba(6,14,8,.55) 0%, transparent 50%);
+  z-index:1;pointer-events:none;
+}
+.hero-photo-inner{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+}
+.hero-photo-inner svg{width:60%;opacity:.12}
+.hero-badge{
+  position:absolute;bottom:-1rem;left:-1rem;
+  background:var(--primary);color:var(--void);
+  padding:1.2rem 1.4rem;border-radius:var(--radius-l);
+  font-weight:600;font-size:.82rem;text-align:center;line-height:1.3;
+  box-shadow:0 20px 48px rgba(0,0,0,.4);
+}
+.hero-badge strong{font-size:1.6rem;display:block;font-family:var(--font-display)}
+.hero-stats{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  background:var(--layer);border-radius:var(--radius-l);
+  border:1px solid var(--border-m);margin-top:clamp(48px,6vw,80px);
+  overflow:hidden;
+}
+.hero-stat{
+  padding:clamp(18px,2.5vw,28px) clamp(16px,2vw,24px);
+  border-right:1px solid var(--border-m);
+  display:flex;flex-direction:column;gap:.3rem;
+}
+.hero-stat:last-child{border-right:none}
+.hero-stat-num{
+  font-family:var(--font-display);font-size:clamp(1.6rem,2.5vw,2.4rem);
+  font-weight:700;color:var(--primary);line-height:1;
+}
+.hero-stat-label{font-size:.78rem;color:var(--text-secondary);letter-spacing:.04em}
+.scroll-indicator{
+  position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);
+  display:flex;flex-direction:column;align-items:center;gap:.5rem;
+  font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);
+  animation:scrollFloat 2.4s ease-in-out infinite;
+}
+.scroll-indicator::before{
+  content:'';width:1px;height:32px;
+  background:linear-gradient(to bottom,transparent,var(--primary));
+  animation:scrollLine 2.4s ease-in-out infinite;
+}
+@keyframes scrollFloat{0%,100%{transform:translateX(-50%) translateY(0);opacity:.6}50%{transform:translateX(-50%) translateY(6px);opacity:1}}
+@keyframes scrollLine{0%,100%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1)}}
+
+/* Hero entrance animations */
+@keyframes heroUp{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
+.hero-eyebrow{animation:heroUp .7s var(--ease) .2s both}
+.hero-h1{animation:heroUp .8s var(--ease) .38s both}
+.hero-sub{animation:heroUp .8s var(--ease) .54s both}
+.hero-ctas{animation:heroUp .8s var(--ease) .68s both}
+.hero-trust{animation:heroUp .8s var(--ease) .8s both}
+.hero-visual{animation:heroUp .9s var(--ease) .45s both}
+
+/* ══════════════════════════════
+   TICKER STRIP
+══════════════════════════════ */
+.ticker{
+  background:var(--primary);overflow:hidden;
+  padding:.65rem 0;white-space:nowrap;
+}
+.ticker-track{
+  display:inline-flex;gap:0;
+  animation:tickerMove 30s linear infinite;
+}
+.ticker-item{
+  display:inline-flex;align-items:center;gap:2rem;
+  font-size:.8rem;font-weight:500;color:var(--void);
+  letter-spacing:.08em;text-transform:uppercase;
+  padding:0 2rem;
+}
+.ticker-sep{color:rgba(9,15,11,.3);font-size:1.2rem}
+@keyframes tickerMove{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ══════════════════════════════
+   USP STRIP
+══════════════════════════════ */
+.usp-strip{
+  background:var(--surface);
+  border-top:1px solid var(--border-m);
+  border-bottom:1px solid var(--border-m);
+}
+.usp-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  gap:0;
+}
+.usp-item{
+  padding:clamp(28px,3.5vw,44px) clamp(20px,2.5vw,36px);
+  border-right:1px solid var(--border-m);
+  display:flex;flex-direction:column;gap:.8rem;
+}
+.usp-item:last-child{border-right:none}
+.usp-icon{
+  width:44px;height:44px;border-radius:10px;
+  background:var(--primary-subtle);border:1px solid rgba(196,155,91,.25);
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+}
+.usp-item h3{font-size:.95rem;font-weight:500;line-height:1.3;color:var(--text-main)}
+.usp-item p{font-size:.85rem;color:var(--text-secondary);line-height:1.65}
+
+/* ══════════════════════════════
+   LEISTUNGEN
+══════════════════════════════ */
+.leistungen-header{
+  display:flex;justify-content:space-between;align-items:flex-end;
+  margin-bottom:clamp(40px,5vw,64px);gap:2rem;flex-wrap:wrap;
+}
+.leistungen-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:auto auto;
+  gap:2px;
+  background:var(--border-m);
+  border-radius:var(--radius-l);overflow:hidden;
+}
+.l-card{
+  background:var(--layer);
+  padding:clamp(28px,3vw,44px);
+  position:relative;overflow:hidden;
+  transition:background var(--t-mid) var(--ease);
+  display:flex;flex-direction:column;gap:1rem;
+}
+.l-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:var(--primary);transform:scaleX(0);transform-origin:left;
+  transition:transform var(--t-mid) var(--ease);
+}
+.l-card:hover{background:var(--layer-2)}
+.l-card:hover::before{transform:scaleX(1)}
+.l-card.featured{
+  grid-column:span 2;background:var(--layer-2);
+  border-left:2px solid var(--primary);
+}
+.l-num{font-size:.72rem;color:var(--text-muted);letter-spacing:.14em;font-weight:500}
+.l-icon{width:48px;height:48px;margin-bottom:.4rem}
+.l-icon svg{width:100%;height:100%}
+.l-card h4{
+  font-family:var(--font-display);font-size:clamp(1.1rem,1.6vw,1.35rem);
+  font-weight:600;line-height:1.25;color:var(--text-main);
+}
+.l-card p{font-size:.88rem;color:var(--text-secondary);line-height:1.72}
+.l-tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.5rem}
+.l-tag{
+  font-size:.7rem;padding:.22rem .65rem;
+  background:var(--border);border-radius:20px;
+  color:var(--text-muted);letter-spacing:.04em;
+  border:1px solid var(--border);
+}
+.l-arrow{
+  margin-top:auto;display:flex;align-items:center;gap:.5rem;
+  font-size:.82rem;color:var(--primary);font-weight:500;
+  opacity:0;transform:translateX(-8px);
+  transition:all var(--t-mid) var(--ease);
+}
+.l-card:hover .l-arrow{opacity:1;transform:none}
+
+/* ══════════════════════════════
+   ÜBER UNS
+══════════════════════════════ */
+.about-visual{position:relative}
+.about-photo{
+  width:100%;aspect-ratio:4/5;
+  background:var(--layer);
+  border-radius:var(--radius-l);
+  border:1px solid var(--border-m);
+  position:relative;overflow:hidden;
+}
+.about-float{
+  position:absolute;bottom:1.5rem;right:-2rem;
+  background:var(--primary);color:var(--void);
+  padding:1.2rem 1.5rem;border-radius:var(--radius-l);
+  box-shadow:0 20px 48px rgba(0,0,0,.6);
+  animation:floatAnim 5s ease-in-out infinite;
+}
+@keyframes floatAnim{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.about-float-num{font-family:var(--font-display);font-size:2.2rem;font-weight:700;line-height:1;color:var(--void)}
+.about-float-label{font-size:.72rem;font-weight:600;letter-spacing:.08em;color:rgba(6,14,8,.65);margin-top:.2rem}
+.about-content{display:flex;flex-direction:column;gap:1.6rem}
+.about-badges{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:.4rem}
+.badge{
+  display:flex;align-items:center;gap:.5rem;
+  padding:.5rem 1rem;border-radius:var(--radius);
+  border:1px solid var(--border-m);font-size:.8rem;
+  color:var(--text-secondary);
+}
+.badge-dot{width:6px;height:6px;border-radius:50%;background:var(--primary);flex-shrink:0}
+.about-strengths{display:flex;flex-direction:column;gap:1rem;margin-top:.4rem}
+.strength{display:flex;gap:1rem;align-items:flex-start}
+.strength-icon{
+  width:36px;height:36px;border-radius:8px;
+  background:var(--primary-subtle);border:1px solid rgba(196,155,91,.2);
+  flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;margin-top:.15rem;
+}
+.strength h4{font-size:.95rem;font-weight:500;margin-bottom:.25rem;color:var(--text-main)}
+.strength p{font-size:.85rem;color:var(--text-secondary);line-height:1.65}
+
+/* ══════════════════════════════
+   REFERENZEN
+══════════════════════════════ */
+.ref-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:1.5px;background:var(--border);
+  border-radius:var(--radius-l);overflow:hidden;
+}
+.ref-card{
+  position:relative;overflow:hidden;
+  background:var(--layer);cursor:pointer;
+  aspect-ratio:4/3;
+}
+.ref-card:first-child{grid-column:span 2;aspect-ratio:16/9}
+.ref-bg{
+  position:absolute;inset:0;
+  width:100%;height:100%;object-fit:cover;object-position:center;
+  transition:transform .7s var(--ease);display:block;
+}
+.ref-card:hover .ref-bg{transform:scale(1.06)}
+.ref-overlay{
+  position:absolute;inset:0;
+  padding:1.2rem 1.4rem;
+  background:linear-gradient(to top,rgba(9,15,11,.9) 0%,rgba(9,15,11,.15) 50%,transparent 100%);
+  display:flex;flex-direction:column;justify-content:flex-end;
+  overflow:hidden;
+  transition:background var(--t-mid) var(--ease);
+}
+.ref-card:hover .ref-overlay{
+  background:linear-gradient(to top,rgba(9,15,11,.96) 0%,rgba(9,15,11,.35) 60%,transparent 100%);
+}
+.ref-tag{
+  font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--primary);margin-bottom:.3rem;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.ref-title{
+  font-family:var(--font-display);font-size:clamp(.95rem,1.3vw,1.1rem);
+  font-weight:600;line-height:1.25;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.ref-meta{font-size:.74rem;color:var(--text-muted);margin-top:.2rem;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.ref-cta{
+  margin-top:clamp(32px,4vw,52px);text-align:center;
+  display:flex;flex-direction:column;align-items:center;gap:.6rem;
+}
+
+/* Referenz placeholder gradients */
+.ref-bg-1{background:linear-gradient(135deg,#1E3825 0%,#2d5038 40%,#3B7553 100%)}
+.ref-bg-2{background:linear-gradient(160deg,#142819 0%,#243D2E 100%)}
+.ref-bg-3{background:linear-gradient(120deg,#1a2e1e 0%,#2a4535 100%)}
+.ref-bg-4{background:linear-gradient(145deg,#0f2418 0%,#1d3827 100%)}
+.ref-bg-5{background:linear-gradient(130deg,#172019 0%,#243D2E 100%)}
+.ref-bg-6{background:linear-gradient(150deg,#1a2e1e 0%,#1E3825 100%)}
+
+/* ══════════════════════════════
+   MEHRWERT / FÖRDERUNG
+══════════════════════════════ */
+.mehrwert{background:var(--surface)}
+.mehrwert-inner{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:clamp(48px,6vw,100px);align-items:start;
+}
+.mehrwert-cards{display:flex;flex-direction:column;gap:2px}
+.mv-card{
+  background:var(--layer);padding:1.8rem 2rem;
+  border-left:2px solid transparent;
+  transition:all var(--t-mid) var(--ease);
+}
+.mv-card:hover{background:var(--layer-2);border-left-color:var(--primary)}
+.mv-card-header{display:flex;align-items:center;gap:1rem;margin-bottom:.7rem}
+.mv-num{
+  font-family:var(--font-display);font-size:1.8rem;font-weight:700;
+  color:rgba(196,155,91,.22);line-height:1;
+}
+.mv-card h4{font-size:1rem;font-weight:500;color:var(--text-main)}
+.mv-card p{font-size:.87rem;color:var(--text-secondary);line-height:1.68}
+
+/* ══════════════════════════════
+   PROZESS
+══════════════════════════════ */
+.prozess-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  gap:0;position:relative;
+}
+.prozess-grid::before{
+  content:'';position:absolute;top:32px;left:12.5%;right:12.5%;height:1px;
+  background:var(--border-m);z-index:0;
+}
+.p-step{
+  padding:clamp(20px,2.5vw,32px) clamp(16px,2vw,24px);
+  display:flex;flex-direction:column;align-items:center;text-align:center;
+  gap:1rem;position:relative;z-index:1;
+}
+.p-circle{
+  width:64px;height:64px;border-radius:50%;
+  background:var(--layer);border:1.5px solid var(--border-m);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--font-display);font-size:1.4rem;font-weight:600;
+  color:var(--primary);flex-shrink:0;
+  transition:all var(--t-mid) var(--ease);
+}
+.p-step:hover .p-circle{
+  background:var(--primary-subtle);border-color:var(--primary);
+}
+.p-step h3{font-size:.95rem;font-weight:500;line-height:1.3;color:var(--text-main)}
+.p-step p{font-size:.85rem;color:var(--text-secondary);line-height:1.65}
+.p-ghost{
+  position:absolute;top:-1rem;left:50%;transform:translateX(-50%);
+  font-size:5rem;font-weight:700;color:var(--text-main);opacity:.03;
+  font-family:var(--font-display);pointer-events:none;z-index:0;
+}
+
+/* ══════════════════════════════
+   BEWERTUNGEN
+══════════════════════════════ */
+.reviews-header{
+  display:grid;grid-template-columns:auto 1fr;
+  gap:clamp(40px,5vw,80px);align-items:center;
+  margin-bottom:clamp(40px,5vw,64px);
+}
+.reviews-score{text-align:center}
+.score-big{
+  font-family:var(--font-display);
+  font-size:clamp(4rem,7vw,7rem);
+  font-weight:700;color:var(--primary);line-height:1;
+}
+.score-stars{font-size:1.4rem;letter-spacing:.1em;margin:.3rem 0;color:var(--primary)}
+.score-count{font-size:.82rem;color:var(--text-muted)}
+.score-bars{display:flex;flex-direction:column;gap:.5rem;max-width:280px}
+.score-bar-row{display:flex;align-items:center;gap:.8rem;font-size:.78rem;color:var(--text-muted)}
+.score-bar-track{flex:1;height:4px;background:var(--border);border-radius:2px;overflow:hidden}
+.score-bar-fill{height:100%;background:var(--primary);border-radius:2px}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.review-card{
+  background:var(--layer);border:1px solid var(--border-m);
+  border-radius:var(--radius-l);padding:1.8rem;
+  display:flex;flex-direction:column;gap:1rem;
+}
+.review-stars{font-size:.9rem;color:var(--primary);letter-spacing:.06em}
+.review-text{font-size:.9rem;color:var(--text-secondary);line-height:1.75;font-style:italic}
+.review-author{display:flex;align-items:center;gap:.8rem;margin-top:auto}
+.review-avatar{
+  width:38px;height:38px;border-radius:50%;
+  background:var(--layer-2);border:1px solid var(--border-m);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--font-display);font-weight:600;
+  font-size:.9rem;color:var(--primary);flex-shrink:0;
+}
+.review-name{font-size:.88rem;font-weight:500;color:var(--text-main)}
+.review-date{font-size:.76rem;color:var(--text-muted)}
+.score-count{font-size:.84rem;color:var(--text-secondary)}
+.score-bars{display:flex;flex-direction:column;gap:.5rem;max-width:280px}
+.score-bar-row{display:flex;align-items:center;gap:.8rem;font-size:.8rem;color:var(--text-secondary)}
+.score-bar-track{flex:1;height:4px;background:var(--border-m);border-radius:2px;overflow:hidden}
+.score-bar-fill{height:100%;background:var(--primary);border-radius:2px}
+
+.reviews-google{
+  margin-top:2rem;display:flex;align-items:center;justify-content:center;
+  gap:1rem;flex-wrap:wrap;
+}
+.google-badge{
+  display:flex;align-items:center;gap:.6rem;padding:.55rem 1.2rem;
+  border:1px solid var(--border-m);border-radius:var(--radius);
+  font-size:.84rem;color:var(--text-secondary);
+  transition:all var(--t-fast);
+}
+.google-badge:hover{border-color:var(--primary);color:var(--text-main)}
+
+/* ══════════════════════════════
+   EINSATZGEBIET
+══════════════════════════════ */
+.gebiet{background:var(--void)}
+.gebiet-inner{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:clamp(48px,6vw,80px);align-items:center;
+}
+.gebiet-radar{
+  width:100%;aspect-ratio:1;position:relative;
+  display:flex;align-items:center;justify-content:center;
+}
+.radar-ring{
+  position:absolute;border-radius:50%;border:1px solid var(--border);
+}
+.radar-center{
+  width:80px;height:80px;background:var(--primary);
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-size:.72rem;font-weight:500;color:var(--void);text-align:center;
+  line-height:1.3;letter-spacing:.04em;z-index:2;
+  animation:pulse 3s ease-in-out infinite;
+}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 var(--primary-glow)}50%{box-shadow:0 0 0 20px transparent}}
+.gebiet-tags{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.2rem}
+.g-tag{
+  padding:.35rem .9rem;border-radius:20px;
+  border:1px solid var(--border-m);
+  font-size:.82rem;color:var(--text-secondary);
+  transition:all var(--t-fast);cursor:default;
+}
+.g-tag:hover{border-color:var(--primary);color:var(--primary)}
+.g-tag.primary-tag{
+  background:var(--primary-subtle);border-color:rgba(196,155,91,.4);
+  color:var(--primary);font-weight:500;
+}
+.gebiet-text{display:flex;flex-direction:column;gap:1.4rem}
+
+/* ══════════════════════════════
+   FAQ
+══════════════════════════════ */
+.faq-grid{display:flex;flex-direction:column;gap:0}
+.faq-item{border-bottom:1px solid var(--border-m)}
+.faq-q{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1.4rem 0;cursor:pointer;gap:2rem;
+  font-size:clamp(.9rem,1.1vw,1rem);font-weight:500;
+  color:var(--text-main);
+  transition:color var(--t-fast);
+}
+.faq-q:hover{color:var(--primary)}
+.faq-icon{
+  width:28px;height:28px;border-radius:50%;
+  border:1px solid var(--border-m);flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1rem;color:var(--primary);
+  transition:transform var(--t-mid) var(--ease),border-color var(--t-fast);
+}
+.faq-q:hover .faq-icon{border-color:var(--primary)}
+.faq-item.open .faq-icon{transform:rotate(45deg)}
+.faq-a{
+  max-height:0;overflow:hidden;
+  transition:max-height .45s var(--ease),padding .45s var(--ease);
+}
+.faq-a-inner{
+  padding-bottom:1.4rem;
+  font-size:.9rem;color:var(--text-secondary);line-height:1.78;
+}
+.faq-item.open .faq-a{max-height:400px}
+
+/* ══════════════════════════════
+   CTA BAND
+══════════════════════════════ */
+.cta-band{
+  background:linear-gradient(135deg,var(--void) 0%,var(--layer) 50%,var(--void) 100%);
+  border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+  padding:clamp(64px,8vw,110px) 0;text-align:center;
+  position:relative;overflow:hidden;
+}
+.cta-band::before{
+  content:'';position:absolute;top:50%;left:50%;
+  width:600px;height:600px;border-radius:50%;
+  background:radial-gradient(circle,var(--primary-glow) 0%,transparent 70%);
+  transform:translate(-50%,-50%);pointer-events:none;
+}
+.cta-band-content{position:relative;z-index:1}
+.cta-band h2{
+  font-family:var(--font-display);
+  font-size:clamp(2rem,4vw,3.8rem);
+  font-weight:700;line-height:1.1;margin-bottom:1.2rem;
+  max-width:800px;margin-left:auto;margin-right:auto;
+}
+.cta-band h2 em{font-style:italic;color:var(--primary)}
+.cta-band p{
+  font-size:clamp(1rem,1.2vw,1.1rem);
+  color:var(--text-secondary);max-width:480px;
+  margin:0 auto 2.2rem;line-height:1.7;
+}
+.cta-band-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+
+/* ══════════════════════════════
+   KONTAKT
+══════════════════════════════ */
+.kontakt-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(40px,5vw,80px)}
+.kontakt-info{display:flex;flex-direction:column;gap:2rem}
+.k-block{display:flex;flex-direction:column;gap:.5rem}
+.k-block h4{font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;color:var(--primary);font-weight:500}
+.k-block p,.k-block a{font-size:.95rem;color:var(--text-secondary);line-height:1.75}
+.k-block a:hover{color:var(--primary)}
+.k-block strong{color:var(--text-main)}
+.k-hours{display:flex;flex-direction:column;gap:.35rem}
+.k-hour-row{display:flex;justify-content:space-between;font-size:.9rem;gap:2rem}
+.k-hour-row span:first-child{color:var(--text-secondary)}
+.k-hour-row span:last-child{color:var(--text-main);font-weight:400}
+.kontakt-form{
+  background:var(--layer);border:1px solid var(--border-m);
+  border-radius:var(--radius-l);padding:clamp(28px,3.5vw,44px);
+}
+.form-row{margin-bottom:1.2rem}
+.form-row label{
+  display:block;font-size:.78rem;font-weight:500;
+  letter-spacing:.06em;text-transform:uppercase;
+  color:var(--text-secondary);margin-bottom:.5rem;
+}
+.form-row input,
+.form-row select,
+.form-row textarea{
+  width:100%;padding:.85rem 1rem;
+  background:var(--layer-2);border:1px solid var(--border-m);
+  border-radius:var(--radius);color:var(--text-main);
+  font-family:var(--font-body);font-size:.9rem;
+  transition:border-color var(--t-fast);outline:none;
+}
+.form-row input::placeholder,
+.form-row textarea::placeholder{color:var(--text-muted)}
+.form-row input:focus,
+.form-row select:focus,
+.form-row textarea:focus{border-color:var(--primary);background:var(--layer)}
+.form-row select{cursor:pointer}
+.form-row select option{background:var(--void);color:var(--text-main)}
+.form-row textarea{resize:vertical;min-height:110px}
+.form-cols{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.form-submit{width:100%;padding:1rem;font-size:.95rem;margin-top:.4rem}
+.form-privacy{
+  margin-top:1rem;font-size:.76rem;color:var(--text-secondary);
+  text-align:center;line-height:1.65;
+}
+.form-privacy a{color:var(--primary);text-decoration:underline;text-underline-offset:3px}
+
+/* ══════════════════════════════
+   FOOTER
+══════════════════════════════ */
+footer{background:var(--void);border-top:1px solid var(--border)}
+.footer-main{
+  display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;
+  gap:clamp(32px,4vw,60px);
+  padding:clamp(48px,6vw,80px) 0 clamp(32px,4vw,52px);
+}
+.footer-brand{display:flex;flex-direction:column;gap:1rem}
+.footer-brand-name{
+  font-family:var(--font-display);font-size:1.3rem;font-weight:600;color:var(--text-main);
+}
+.footer-brand p{font-size:.87rem;color:var(--text-secondary);line-height:1.72;max-width:280px}
+.footer-badges{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.4rem}
+.f-badge{
+  padding:.3rem .75rem;border-radius:var(--radius);
+  border:1px solid var(--border-m);
+  font-size:.72rem;color:var(--text-muted);letter-spacing:.06em;
+}
+.footer-col h5{
+  font-size:.75rem;font-weight:500;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--text-secondary);
+  margin-bottom:1.2rem;
+}
+.footer-col ul{display:flex;flex-direction:column;gap:.65rem}
+.footer-col ul li a{
+  font-size:.88rem;color:var(--text-muted);
+  transition:color var(--t-fast);
+}
+.footer-col ul li a:hover{color:var(--primary)}
+.footer-col .footer-contact-item{
+  display:flex;gap:.7rem;margin-bottom:.7rem;
+  font-size:.88rem;color:var(--text-muted);
+}
+.footer-col .footer-contact-item a{color:var(--text-muted);transition:color var(--t-fast)}
+.footer-col .footer-contact-item a:hover{color:var(--primary)}
+.footer-col .footer-contact-item span:first-child{color:var(--primary);flex-shrink:0}
+.footer-bottom{
+  border-top:1px solid var(--border-m);
+  padding:1.4rem 0;
+  display:flex;justify-content:space-between;align-items:center;
+  flex-wrap:wrap;gap:1rem;
+}
+.footer-bottom p{font-size:.78rem;color:var(--text-muted)}
+.footer-bottom-links{display:flex;gap:1.5rem}
+.footer-bottom-links a{font-size:.78rem;color:var(--text-muted);transition:color var(--t-fast)}
+.footer-bottom-links a:hover{color:var(--primary)}
+
+/* ══════════════════════════════
+   FLOATING CTA (MOBILE)
+══════════════════════════════ */
+.floating-cta{
+  position:fixed;bottom:1.4rem;right:1.4rem;z-index:990;
+  display:none;flex-direction:column;align-items:flex-end;gap:.6rem;
+}
+.floating-tel{
+  width:54px;height:54px;border-radius:50%;
+  background:var(--primary);color:var(--void);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 8px 28px var(--primary-glow);
+  animation:phonePulse 3s ease-in-out infinite;
+}
+@keyframes phonePulse{0%,100%{box-shadow:0 0 0 0 var(--primary-glow)}50%{box-shadow:0 0 0 12px transparent}}
+.floating-angebot{
+  background:var(--primary);color:var(--void);
+  padding:.65rem 1.2rem;border-radius:24px;
+  font-size:.82rem;font-weight:500;
+  box-shadow:0 8px 28px var(--primary-glow);
+}
+
+/* ══════════════════════════════
+   RESPONSIVE
+══════════════════════════════ */
+@media(max-width:1100px){
+  .hero-grid{grid-template-columns:1fr;text-align:center}
+  .hero-ctas{justify-content:center}
+  .hero-trust{justify-content:center}
+  .hero-visual{display:none}
+  .hero-stats{grid-template-columns:repeat(2,1fr)}
+  .hero-stat:nth-child(2){border-right:none}
+  .hero-stat:nth-child(3){border-top:1px solid var(--border)}
+  .hero-stat:nth-child(4){border-top:1px solid var(--border);border-right:none}
+  .hero-sub{margin-left:auto;margin-right:auto}
+}
+@media(max-width:960px){
+  .grid-2{grid-template-columns:1fr}
+  .leistungen-grid{grid-template-columns:1fr 1fr}
+  .l-card.featured{grid-column:span 2}
+  .ref-grid{grid-template-columns:1fr 1fr}
+  .ref-card:first-child{grid-column:span 2}
+  .reviews-header{grid-template-columns:1fr;gap:2rem}
+  .reviews-grid{grid-template-columns:1fr 1fr}
+  .reviews-grid .review-card:last-child{grid-column:span 2}
+  .footer-main{grid-template-columns:1fr 1fr}
+  .mehrwert-inner{grid-template-columns:1fr}
+  .gebiet-inner{grid-template-columns:1fr}
+  .gebiet-radar{max-width:280px;margin:0 auto}
+  .kontakt-grid{grid-template-columns:1fr}
+  .prozess-grid{grid-template-columns:1fr 1fr}
+  .prozess-grid::before{display:none}
+  .usp-grid{grid-template-columns:1fr 1fr}
+  .usp-item:nth-child(2){border-right:none}
+  .usp-item:nth-child(3){border-top:1px solid var(--border);border-right:1px solid var(--border)}
+  .usp-item:nth-child(4){border-top:1px solid var(--border);border-right:none}
+}
+@media(max-width:768px){
+  .nav-links{display:none}
+  .nav-tel{display:none}
+  .burger{display:flex}
+  .floating-cta{display:flex}
+  .leistungen-grid{grid-template-columns:1fr}
+  .l-card.featured{grid-column:span 1}
+  .ref-grid{grid-template-columns:1fr}
+  .ref-card:first-child{grid-column:span 1}
+  .reviews-grid{grid-template-columns:1fr}
+  .reviews-grid .review-card:last-child{grid-column:span 1}
+  .footer-main{grid-template-columns:1fr}
+  .prozess-grid{grid-template-columns:1fr}
+  .usp-grid{grid-template-columns:1fr}
+  .usp-item{border-right:none;border-top:1px solid var(--border)}
+  .usp-item:first-child{border-top:none}
+  .form-cols{grid-template-columns:1fr}
+  .about-float{right:1rem;bottom:1rem}
+  body{cursor:auto}
+  .cursor-dot,.cursor-ring{display:none}
+}
+@media(max-width:480px){
+  .hero-stats{grid-template-columns:1fr 1fr}
+  .cta-band-btns{flex-direction:column;align-items:center}
+  .hero-ctas{flex-direction:column;align-items:center}
+  .footer-bottom{flex-direction:column;text-align:center}
+}
+</style>
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ══════════════════════════════
+   NAVIGATION
+══════════════════════════════ -->
+<nav id="mainNav" role="navigation" aria-label="Hauptnavigation">
+  <div class="nav-inner">
+    <a href="#" class="nav-brand" aria-label="Gartengestaltung Stoll Startseite">
+      <span class="nav-brand-name">Gärtnerei Stoll</span>
+      <span class="nav-brand-sub">Gartengestaltung · Karlsruhe-Durlach</span>
+    </a>
+    <div class="nav-links">
+      <a href="#leistungen">Leistungen</a>
+      <a href="#ueber-uns">Über uns</a>
+      <a href="#referenzen">Projekte</a>
+      <a href="#bewertungen">Bewertungen</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="nav-actions">
+      <a href="tel:+4972141384" class="nav-tel" aria-label="Jetzt anrufen">(0721) 41384</a>
+      <a href="#kontakt" class="nav-cta">Kostenloses Angebot</a>
+      <button class="burger" id="burgerBtn" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <a href="#leistungen" class="mob-link">Leistungen</a>
+  <a href="#ueber-uns" class="mob-link">Über uns</a>
+  <a href="#referenzen" class="mob-link">Projekte</a>
+  <a href="#bewertungen" class="mob-link">Bewertungen</a>
+  <a href="#faq" class="mob-link">FAQ</a>
+  <a href="#kontakt" class="mob-link">Kontakt</a>
+  <a href="tel:+4972141384" class="mob-tel">☎ (0721) 41384</a>
+</div>
+
+<!-- ══════════════════════════════
+   HERO
+══════════════════════════════ -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+
+  <!-- Botanical SVG Decoration -->
+  <svg class="hero-botanical" viewBox="0 0 400 700" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <g fill="none" stroke="#BF9B5F" stroke-width="1.2">
+      <!-- Main stem -->
+      <path d="M200 680 C198 590 210 500 192 410 C178 330 195 240 188 150 C185 100 200 50 205 20"/>
+      <!-- Branch right 1 -->
+      <path d="M196 450 C230 430 270 420 310 410"/>
+      <path d="M230 428 C238 400 248 375 260 355"/>
+      <path d="M270 420 C275 392 280 365 278 340"/>
+      <!-- Leaf right 1 -->
+      <path d="M310 410 C340 390 360 365 345 345 C330 355 310 375 310 410Z"/>
+      <!-- Branch left 1 -->
+      <path d="M192 380 C158 360 122 348 90 340"/>
+      <path d="M158 358 C150 330 145 305 150 280"/>
+      <!-- Leaf left 1 -->
+      <path d="M90 340 C65 318 55 290 72 275 C85 290 90 315 90 340Z"/>
+      <!-- Branch right 2 -->
+      <path d="M193 290 C225 270 258 255 295 248"/>
+      <!-- Leaf right 2 -->
+      <path d="M295 248 C320 232 338 208 322 194 C308 210 295 230 295 248Z"/>
+      <!-- Branch left 2 -->
+      <path d="M190 220 C162 200 132 188 100 182"/>
+      <!-- Leaf left 2 -->
+      <path d="M100 182 C72 164 58 140 76 126 C90 142 100 162 100 182Z"/>
+      <!-- Small detail branches -->
+      <path d="M192 330 C210 318 228 310 248 305"/>
+      <path d="M192 160 C215 148 235 138 255 130"/>
+      <!-- Rose bud top -->
+      <circle cx="205" cy="20" r="18"/>
+      <path d="M205 2 C215 10 218 20 205 28 C192 20 195 10 205 2"/>
+      <path d="M192 12 C200 18 205 26 205 28 C200 20 192 14 192 12"/>
+      <path d="M218 12 C210 18 205 26 205 28 C210 20 218 14 218 12"/>
+    </g>
+  </svg>
+
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="label">Gartengestaltung in Karlsruhe-Durlach · Familiengeführt seit 25+ Jahren</span>
+        </div>
+        <h1 class="hero-h1">
+          Ihr Garten.<br>
+          <em>Neu gedacht.</em>
+          In Karlsruhe.
+        </h1>
+        <p class="hero-sub">
+          Schön ist kein Zufall. Wir gestalten Außenräume, die Sie täglich begeistern – mit Pflanzen aus eigenem Anbau, Rosen aus eigener Zucht und dem Blick fürs Detail, den nur ein echtes Familienunternehmen hat.
+        </p>
+        <div class="hero-ctas">
+          <a href="#kontakt" class="btn btn-primary btn-arrow" aria-label="Kostenloses Angebot anfragen">
+            Kostenloses Angebot anfragen
+          </a>
+          <a href="tel:+4972141384" class="btn btn-outline" aria-label="Jetzt anrufen">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.42 2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.18 6.18l1-1a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Jetzt anrufen
+          </a>
+        </div>
+        <div class="hero-trust">
+          <div class="hero-trust-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#BF9B5F" aria-hidden="true"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+            <span>5.0 Google-Bewertung</span>
+          </div>
+          <div class="trust-sep" aria-hidden="true"></div>
+          <div class="hero-trust-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#BF9B5F" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span>Eigener Pflanzenanbau</span>
+          </div>
+          <div class="trust-sep" aria-hidden="true"></div>
+          <div class="hero-trust-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#BF9B5F" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Kostenlose Erstberatung</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-photo">
+          <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=720&q=85&fit=crop&crop=center"
+               alt="Gartengestaltung Karlsruhe – Gärtnerei Stoll Durlach"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block;"/>
+        </div>
+        <div class="hero-badge">
+          <strong>25+</strong>
+          Jahre<br>Erfahrung
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats Bar -->
+    <div class="hero-stats" data-reveal="up" data-delay="2">
+      <div class="hero-stat">
+        <span class="hero-stat-num">25+</span>
+        <span class="hero-stat-label">Jahre Erfahrung in Karlsruhe</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">500+</span>
+        <span class="hero-stat-label">Erfolgreich gestaltete Gärten</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">100%</span>
+        <span class="hero-stat-label">Eigener Pflanzenanbau</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">5.0★</span>
+        <span class="hero-stat-label">Google-Bewertung</span>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator" aria-hidden="true">Entdecken</div>
+</section>
+
+<!-- ══════════════════════════════
+   TICKER STRIP
+══════════════════════════════ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <!-- Doppelt für nahtlosen Loop -->
+    <div class="ticker-item">Gartengestaltung Karlsruhe <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Eigener Pflanzenanbau <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Rosen aus eigener Zucht <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Kostenlose Erstberatung <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Gartenpflege Karlsruhe <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Familiengeführt seit 1995 <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Lieferservice im gesamten Raum Karlsruhe <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Heckenschnitt & Gartenpflege <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Gartengestaltung Karlsruhe <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Eigener Pflanzenanbau <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Rosen aus eigener Zucht <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Kostenlose Erstberatung <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Gartenpflege Karlsruhe <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Familiengeführt seit 1995 <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Lieferservice im gesamten Raum Karlsruhe <span class="ticker-sep">✦</span></div>
+    <div class="ticker-item">Heckenschnitt & Gartenpflege <span class="ticker-sep">✦</span></div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+   USP STRIP
+══════════════════════════════ -->
+<section class="usp-strip section" aria-label="Unsere Stärken">
+  <div class="container">
+    <div class="usp-grid">
+      <div class="usp-item" data-reveal="up" data-delay="1">
+        <div class="usp-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#BF9B5F" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Zertifizierte Fachbetrieb</h3>
+        <p>Ausgebildetes Fachpersonal mit langjähriger Berufserfahrung im Gartenbau. Keine Subunternehmer – wir erledigen alles selbst.</p>
+      </div>
+      <div class="usp-item" data-reveal="up" data-delay="2">
+        <div class="usp-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#BF9B5F" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3>Zuverlässige Terminplanung</h3>
+        <p>Wir erscheinen pünktlich und halten vereinbarte Termine ein. Ehrliche Zeitplanung – kein Hinhalten, keine Überraschungen.</p>
+      </div>
+      <div class="usp-item" data-reveal="up" data-delay="3">
+        <div class="usp-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#BF9B5F" stroke-width="1.8"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h3>Transparente Preise</h3>
+        <p>Klare Angebote ohne versteckte Kosten. Kostenlose Erstberatung vor Ort – damit Sie wissen, was Sie erwartet.</p>
+      </div>
+      <div class="usp-item" data-reveal="up" data-delay="4">
+        <div class="usp-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#BF9B5F" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <h3>Pflanzen aus eigenem Anbau</h3>
+        <p>Keine Massenware vom Großhandel. Unsere Pflanzen bauen wir größtenteils selbst an – für Qualität, die man sieht und fühlt.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   LEISTUNGEN
+══════════════════════════════ -->
+<section class="section" id="leistungen" aria-label="Unsere Leistungen">
+  <div class="container">
+    <div class="leistungen-header">
+      <div>
+        <span class="label">Was wir für Sie tun</span>
+        <h2 class="section-title" style="margin-top:.6rem">
+          Gartengestaltung<br>mit Herz & Handwerk
+        </h2>
+      </div>
+      <p class="section-sub">
+        Von der ersten Idee bis zur fertigen Bepflanzung: Wir begleiten Ihren Garten durch alle Phasen – immer persönlich, immer mit Pflanzen aus eigenem Anbau.
+      </p>
+    </div>
+
+    <div class="leistungen-grid">
+      <!-- Feature Karte (groß) -->
+      <div class="l-card featured" data-reveal="left">
+        <span class="l-num">01</span>
+        <div class="l-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none" stroke="#BF9B5F" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 42 C24 42 8 32 8 18 C8 11 15 6 24 6 C33 6 40 11 40 18 C40 32 24 42 24 42Z"/>
+            <path d="M24 6 C24 6 20 14 24 22 C28 14 24 6 24 6"/>
+            <path d="M12 20 C18 22 24 22 24 22"/>
+            <path d="M36 20 C30 22 24 22 24 22"/>
+          </svg>
+        </div>
+        <h4>Gartengestaltung & Neuanlage in Karlsruhe</h4>
+        <p>Ihr Traum vom perfekten Garten – wir machen ihn wahr. Von der professionellen Planung über die Auswahl der richtigen Pflanzen bis zur vollständigen Neuanlage. Ob naturnah, mediterran oder klassisch-formal: Wir denken Ihren Garten von Grund auf neu, mit Pflanzen aus unserem eigenen Anbau in Karlsruhe-Durlach.</p>
+        <div class="l-tags">
+          <span class="l-tag">Gartenanlage Karlsruhe</span>
+          <span class="l-tag">Gartenplanung</span>
+          <span class="l-tag">Neubau-Garten</span>
+          <span class="l-tag">Bepflanzung</span>
+        </div>
+        <div class="l-arrow" aria-hidden="true">Angebot anfragen →</div>
+      </div>
+
+      <div class="l-card" data-reveal="right">
+        <span class="l-num">02</span>
+        <div class="l-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none" stroke="#BF9B5F" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="28" width="32" height="12" rx="2"/>
+            <path d="M16 28 C16 16 24 10 32 16"/>
+            <path d="M24 28 L24 10"/>
+            <path d="M20 18 L24 10 L28 18"/>
+          </svg>
+        </div>
+        <h4>Garten-Umgestaltung</h4>
+        <p>Ihr Garten ist in die Jahre gekommen oder entspricht nicht mehr Ihren Wünschen? Wir analysieren den Bestand und gestalten ihn mit gezielten Eingriffen zu einem Ort, der Sie begeistert.</p>
+        <div class="l-tags">
+          <span class="l-tag">Garten umgestalten Karlsruhe</span>
+          <span class="l-tag">Renovierung</span>
+        </div>
+        <div class="l-arrow" aria-hidden="true">Mehr erfahren →</div>
+      </div>
+
+      <div class="l-card" data-reveal="up">
+        <span class="l-num">03</span>
+        <div class="l-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none" stroke="#BF9B5F" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 38 L20 26 L30 32 L40 18"/>
+            <path d="M36 8 L44 8 L44 16"/>
+            <circle cx="24" cy="28" r="3"/>
+          </svg>
+        </div>
+        <h4>Gartenpflege & Heckenschnitt</h4>
+        <p>Regelmäßige Gartenpflege in Karlsruhe: Heckenschnitt, Rückschnitt, Unkrautentfernung und saisonale Pflege. Damit Ihr Garten immer tadellos aussieht – auch wenn Sie keine Zeit haben.</p>
+        <div class="l-tags">
+          <span class="l-tag">Heckenschnitt Karlsruhe</span>
+          <span class="l-tag">Gartenpflege</span>
+        </div>
+        <div class="l-arrow" aria-hidden="true">Mehr erfahren →</div>
+      </div>
+
+      <div class="l-card" data-reveal="up" data-delay="2">
+        <span class="l-num">04</span>
+        <div class="l-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none" stroke="#BF9B5F" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="20" r="10"/>
+            <path d="M24 10 C24 10 28 15 24 20 C20 15 24 10 24 10"/>
+            <path d="M14 20 C14 20 19 20 24 20"/>
+            <path d="M34 20 C34 20 29 20 24 20"/>
+            <path d="M24 30 L24 42"/>
+            <path d="M18 42 L30 42"/>
+          </svg>
+        </div>
+        <h4>Schnittblumen & Rosen</h4>
+        <p>Viele verschiedene Sorten frischer Schnittblumen, darunter unsere Spezialität: handgezüchtete Rosen in außergewöhnlicher Vielfalt. Direkt aus unserem Anbau in Karlsruhe-Durlach.</p>
+        <div class="l-tags">
+          <span class="l-tag">Rosen kaufen Karlsruhe</span>
+          <span class="l-tag">Schnittblumen</span>
+        </div>
+        <div class="l-arrow" aria-hidden="true">Auswahl ansehen →</div>
+      </div>
+
+      <div class="l-card" data-reveal="up" data-delay="3">
+        <span class="l-num">05</span>
+        <div class="l-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none" stroke="#BF9B5F" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 40 L8 20 Q24 8 40 20 L40 40"/>
+            <path d="M24 8 L24 40"/>
+            <path d="M8 28 Q16 24 24 28"/>
+            <path d="M40 28 Q32 24 24 28"/>
+          </svg>
+        </div>
+        <h4>Gartenpflanzen aus eigenem Anbau</h4>
+        <p>Sträucher, Hecken, Stauden und Saisonpflanzen – größtenteils selbst angebaut für maximale Qualität und Regionalität. Wir beraten Sie gerne, welche Pflanzen in Ihrem Garten und in Karlsruhes Klima optimal gedeihen.</p>
+        <div class="l-tags">
+          <span class="l-tag">Gartenpflanzen Karlsruhe</span>
+          <span class="l-tag">Sträucher</span>
+          <span class="l-tag">Hecken</span>
+        </div>
+        <div class="l-arrow" aria-hidden="true">Mehr erfahren →</div>
+      </div>
+
+      <div class="l-card" style="background:var(--layer-2);border-top:2px solid var(--primary)" data-reveal="right">
+        <span class="l-num">06</span>
+        <div class="l-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none" stroke="#BF9B5F" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="20" width="32" height="20" rx="3"/>
+            <path d="M16 20 L16 14 Q24 8 32 14 L32 20"/>
+            <circle cx="24" cy="30" r="3"/>
+            <path d="M24 33 L24 38"/>
+          </svg>
+        </div>
+        <h4>Lieferservice Karlsruhe & Region</h4>
+        <p>Pflanzen, Schnittblumen und Gartenbedarf komfortabel zu Ihnen geliefert. Wir beliefern Privatkunden und Unternehmen im gesamten Raum Karlsruhe, Ettlingen und Durlach.</p>
+        <div class="l-tags">
+          <span class="l-tag">Lieferservice Karlsruhe</span>
+          <span class="l-tag">Pflanzenlieferung</span>
+        </div>
+        <a href="#kontakt" class="l-arrow" style="opacity:1;transform:none;font-weight:500">Jetzt bestellen →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   ÜBER UNS
+══════════════════════════════ -->
+<section class="section section-alt" id="ueber-uns" aria-label="Über Gärtnerei Stoll">
+  <div class="container">
+    <div class="grid-2">
+      <div class="about-visual" data-reveal="left">
+        <div class="about-photo">
+          <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8?w=720&q=85&fit=crop&crop=center"
+               alt="Gärtnerei Stoll Team Karlsruhe – Monika und Rebecca Stoll"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;display:block;border-radius:inherit;"/>
+        </div>
+        <div class="about-float" aria-label="500 Plus gestaltete Gärten">
+          <div class="about-float-num">500+</div>
+          <div class="about-float-label">Gärten gestaltet<br>in Karlsruhe</div>
+        </div>
+      </div>
+
+      <div class="about-content" data-reveal="right">
+        <div>
+          <span class="label">Wer wir sind</span>
+          <h2 class="section-title" style="margin-top:.7rem">
+            Drei Generationen.<br>
+            <span style="color:var(--primary);font-style:italic">Eine Leidenschaft.</span>
+          </h2>
+        </div>
+        <p style="color:var(--text-secondary);line-height:1.8">
+          Gartengestaltung Stoll in Karlsruhe-Durlach ist mehr als ein Gartenbaubetrieb – wir sind eine Familie, die Gärten liebt. Monika Stoll führt den Betrieb mit ihrer Tochter Rebecca Stoll und einem erfahrenen Gartenbauer. Gegründet in Durlach, verwurzelt in der Region Karlsruhe.
+        </p>
+        <p style="color:var(--text-secondary);line-height:1.8">
+          Was uns von anderen Gärtnereien in Karlsruhe unterscheidet: Wir bauen unsere Pflanzen größtenteils selbst an – keine Ware vom anonymen Großhandel. Das bedeutet: bessere Qualität, mehr Auswahl und Pflanzen, die für das Klima in Karlsruhe optimal vorbereitet sind.
+        </p>
+
+        <div class="about-strengths">
+          <div class="strength" data-reveal="up" data-delay="1">
+            <div class="strength-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#BF9B5F" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <div>
+              <h4>Eigener Pflanzenanbau seit über 25 Jahren</h4>
+              <p>Unsere Pflanzen wachsen bei uns in Karlsruhe-Durlach heran – keine Massenware, keine langen Transportwege.</p>
+            </div>
+          </div>
+          <div class="strength" data-reveal="up" data-delay="2">
+            <div class="strength-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#BF9B5F" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <div>
+              <h4>Rosenspezialisierung: Seltenheit in Karlsruhe</h4>
+              <p>Wir züchten viele verschiedene Rosensorten – frische Schnittblumen direkt vom Züchter, nicht aus dem Supermarkt.</p>
+            </div>
+          </div>
+          <div class="strength" data-reveal="up" data-delay="3">
+            <div class="strength-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#BF9B5F" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div>
+              <h4>Persönliche Betreuung – keine Weitervermittlung</h4>
+              <p>Monika oder Rebecca Stoll beraten Sie persönlich. Immer. Kein anonymes Callcenter, keine Subunternehmer.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-badges">
+          <div class="badge"><span class="badge-dot"></span>Familienunternehmen Karlsruhe</div>
+          <div class="badge"><span class="badge-dot"></span>Eigener Pflanzenanbau</div>
+          <div class="badge"><span class="badge-dot"></span>Rosenzüchtung & -handel</div>
+          <div class="badge"><span class="badge-dot"></span>Gartenpflege & Service</div>
+        </div>
+
+        <div>
+          <a href="#kontakt" class="btn btn-primary btn-arrow">Kostenlos beraten lassen</a>
+          <span class="btn-micro">Kostenlos · Unverbindlich · Persönlich</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   REFERENZEN
+══════════════════════════════ -->
+<section class="section" id="referenzen" aria-label="Unsere Gartenprojekte">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:clamp(40px,5vw,64px)" data-reveal="up">
+      <span class="label">Unsere Arbeit spricht für sich</span>
+      <h2 class="section-title" style="margin-top:.7rem">Gartenprojekte<br>aus Karlsruhe & Umgebung</h2>
+    </div>
+
+    <div class="ref-grid" data-reveal="scale">
+      <div class="ref-card">
+        <img class="ref-bg" src="https://images.unsplash.com/photo-1585320806297-9794b3e4aaae?w=1000&q=80&fit=crop&crop=center"
+             alt="Neuanlage Privatgarten Karlsruhe-Durlach – Gartengestaltung Stoll" loading="lazy"/>
+        <div class="ref-overlay">
+          <div class="ref-tag">Gartengestaltung</div>
+          <div class="ref-title">Neuanlage Privatgarten Durlach</div>
+          <div class="ref-meta">Karlsruhe-Durlach · 2023</div>
+        </div>
+      </div>
+      <div class="ref-card">
+        <img class="ref-bg" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80&fit=crop&crop=center"
+             alt="Rosenanlage Karlsruhe-Grötzingen – Gärtnerei Stoll Rosen" loading="lazy"/>
+        <div class="ref-overlay">
+          <div class="ref-tag">Rosengarten</div>
+          <div class="ref-title">Rosenanlage mit Naturstein</div>
+          <div class="ref-meta">Karlsruhe-Grötzingen · 2022</div>
+        </div>
+      </div>
+      <div class="ref-card">
+        <img class="ref-bg" src="https://images.unsplash.com/photo-1416453072034-c8dbfa2856b4?w=700&q=80&fit=crop&crop=center"
+             alt="Heckengestaltung Formschnitt Ettlingen – Gärtnerei Stoll" loading="lazy"/>
+        <div class="ref-overlay">
+          <div class="ref-tag">Heckenschnitt</div>
+          <div class="ref-title">Heckengestaltung & Formschnitt</div>
+          <div class="ref-meta">Ettlingen · 2023</div>
+        </div>
+      </div>
+      <div class="ref-card">
+        <img class="ref-bg" src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=700&q=80&fit=crop&crop=center"
+             alt="Gartenpflege Rheinstetten – Gärtnerei Stoll Karlsruhe" loading="lazy"/>
+        <div class="ref-overlay">
+          <div class="ref-tag">Gartenpflege</div>
+          <div class="ref-title">Saisonale Gartenpflege</div>
+          <div class="ref-meta">Rheinstetten · laufend</div>
+        </div>
+      </div>
+      <div class="ref-card">
+        <img class="ref-bg" src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=700&q=80&fit=crop&crop=center"
+             alt="Terrassenbepflanzung Balkon Karlsruhe – Gärtnerei Stoll" loading="lazy"/>
+        <div class="ref-overlay">
+          <div class="ref-tag">Bepflanzung</div>
+          <div class="ref-title">Terrassen- & Balkonbepflanzung</div>
+          <div class="ref-meta">Karlsruhe-Hagsfeld · 2024</div>
+        </div>
+      </div>
+      <div class="ref-card">
+        <img class="ref-bg" src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=700&q=80&fit=crop&crop=center"
+             alt="Gartenumgestaltung Pfinztal – Gärtnerei Stoll Karlsruhe" loading="lazy"/>
+        <div class="ref-overlay">
+          <div class="ref-tag">Umgestaltung</div>
+          <div class="ref-title">Komplette Gartenumgestaltung</div>
+          <div class="ref-meta">Pfinztal · 2022</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ref-cta" data-reveal="up">
+      <p style="color:var(--text-muted);font-size:.9rem">Haben Sie ein ähnliches Projekt in Karlsruhe oder der Region?</p>
+      <a href="#kontakt" class="btn btn-primary btn-arrow">Ähnliches Projekt anfragen</a>
+      <span class="btn-micro">Kostenlos · Unverbindlich · Antwort innerhalb von 24h</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   MEHRWERT / BERATUNG
+══════════════════════════════ -->
+<section class="section mehrwert" aria-label="Unser Mehrwert">
+  <div class="container">
+    <div class="mehrwert-inner">
+      <div data-reveal="left">
+        <span class="label">Unser Versprechen</span>
+        <h2 class="section-title" style="margin-top:.7rem">
+          Was Sie von uns<br>
+          <em style="font-style:italic;color:var(--primary)">wirklich bekommen</em>
+        </h2>
+        <p class="section-sub" style="margin-top:1.2rem">
+          Ein guter Garten ist kein Produkt – er ist eine Beziehung. Wir beraten Sie nicht einmal und verschwinden dann. Wir bleiben Ihr Ansprechpartner, Saison für Saison.
+        </p>
+        <div style="margin-top:2rem">
+          <a href="#kontakt" class="btn btn-outline btn-arrow">Jetzt Beratungstermin anfragen</a>
+        </div>
+      </div>
+      <div class="mehrwert-cards" data-reveal="right">
+        <div class="mv-card">
+          <div class="mv-card-header">
+            <span class="mv-num">01</span>
+            <h4>Kostenlose Vor-Ort-Beratung</h4>
+          </div>
+          <p>Wir kommen zu Ihnen nach Hause, schauen sich die Gegebenheiten an und entwickeln gemeinsam mit Ihnen Ideen – bevor es einen einzigen Euro kostet.</p>
+        </div>
+        <div class="mv-card">
+          <div class="mv-card-header">
+            <span class="mv-num">02</span>
+            <h4>Schriftliches Angebot ohne Druck</h4>
+          </div>
+          <p>Sie bekommen ein klares, nachvollziehbares Angebot. Keine versteckten Posten, keine Überraschungen. Sie entscheiden in Ruhe – ohne Zeitdruck.</p>
+        </div>
+        <div class="mv-card">
+          <div class="mv-card-header">
+            <span class="mv-num">03</span>
+            <h4>Pflanzen aus kontrolliertem Eigenanbau</h4>
+          </div>
+          <p>Was andere Gärtnereien in Karlsruhe beim Großhandel kaufen, bauen wir selbst an. Qualitätskontrolle von der Saat bis zur Pflanzung in Ihrem Garten.</p>
+        </div>
+        <div class="mv-card">
+          <div class="mv-card-header">
+            <span class="mv-num">04</span>
+            <h4>Langfristige Gartenpflege auf Wunsch</h4>
+          </div>
+          <p>Nach der Gestaltung hören wir nicht auf. Regelmäßige Gartenpflege in Karlsruhe und Umgebung – damit Ihr Garten das ganze Jahr über schön bleibt.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   PROZESS
+══════════════════════════════ -->
+<section class="section" aria-label="Unser Ablauf">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:clamp(48px,6vw,80px)" data-reveal="up">
+      <span class="label">So läuft es ab</span>
+      <h2 class="section-title" style="margin-top:.7rem">
+        Von der Idee zum<br>
+        <em style="color:var(--primary);font-style:italic">fertigen Traumgarten</em>
+      </h2>
+      <p class="section-sub" style="margin:1rem auto 0;text-align:center">
+        Kein undurchsichtiger Prozess. Kein nervöses Warten. Vier klare Schritte, bei denen Sie immer wissen, was als nächstes passiert.
+      </p>
+    </div>
+
+    <div class="prozess-grid">
+      <div class="p-step" data-reveal="up" data-delay="1">
+        <div class="p-ghost" aria-hidden="true">1</div>
+        <div class="p-circle" aria-label="Schritt 1">1</div>
+        <h3>Kontakt & Erstgespräch</h3>
+        <p>Sie rufen an oder senden eine Anfrage. Wir melden uns innerhalb von 24 Stunden zurück und vereinbaren einen kostenlosen Vor-Ort-Termin in Karlsruhe.</p>
+      </div>
+      <div class="p-step" data-reveal="up" data-delay="2">
+        <div class="p-ghost" aria-hidden="true">2</div>
+        <div class="p-circle" aria-label="Schritt 2">2</div>
+        <h3>Beratung vor Ort</h3>
+        <p>Wir schauen uns Ihren Garten gemeinsam an, hören Ihren Wünsche zu und entwickeln erste Ideen. Kostenlos und unverbindlich – immer persönlich.</p>
+      </div>
+      <div class="p-step" data-reveal="up" data-delay="3">
+        <div class="p-ghost" aria-hidden="true">3</div>
+        <div class="p-circle" aria-label="Schritt 3">3</div>
+        <h3>Angebot & Planung</h3>
+        <p>Sie erhalten ein schriftliches Angebot mit klaren Positionen. Nach Ihrer Freigabe planen wir den Ausführungstermin passend zu Ihrer Zeit und zur Saison.</p>
+      </div>
+      <div class="p-step" data-reveal="up" data-delay="4">
+        <div class="p-ghost" aria-hidden="true">4</div>
+        <div class="p-circle" aria-label="Schritt 4">4</div>
+        <h3>Ausführung & Übergabe</h3>
+        <p>Unser Team setzt Ihren Garten um – pünktlich, sorgfältig, mit Pflanzen aus eigenem Anbau. Am Ende nehmen wir gemeinsam alles ab und erklären die Pflege.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   BEWERTUNGEN
+══════════════════════════════ -->
+<section class="section section-alt" id="bewertungen" aria-label="Kundenbewertungen">
+  <div class="container">
+    <div data-reveal="up" style="text-align:center;margin-bottom:clamp(32px,4vw,52px)">
+      <span class="label">Was unsere Kunden sagen</span>
+      <h2 class="section-title" style="margin-top:.7rem">Vertrauen aus Karlsruhe</h2>
+    </div>
+
+    <div class="reviews-header">
+      <div class="reviews-score" data-reveal="left">
+        <div class="score-big" aria-label="Bewertung 5.0 von 5">5.0</div>
+        <div class="score-stars" aria-hidden="true">★★★★★</div>
+        <div class="score-count">auf Google · Karlsruhe</div>
+        <div style="height:1.2rem"></div>
+        <div class="score-bars">
+          <div class="score-bar-row"><span>5★</span><div class="score-bar-track"><div class="score-bar-fill" style="width:95%"></div></div><span>95%</span></div>
+          <div class="score-bar-row"><span>4★</span><div class="score-bar-track"><div class="score-bar-fill" style="width:5%"></div></div><span>5%</span></div>
+          <div class="score-bar-row"><span>3★</span><div class="score-bar-track"><div class="score-bar-fill" style="width:0%"></div></div><span>0%</span></div>
+          <div class="score-bar-row"><span>2★</span><div class="score-bar-track"><div class="score-bar-fill" style="width:0%"></div></div><span>0%</span></div>
+          <div class="score-bar-row"><span>1★</span><div class="score-bar-track"><div class="score-bar-fill" style="width:0%"></div></div><span>0%</span></div>
+        </div>
+      </div>
+      <div data-reveal="right">
+        <p style="font-family:var(--font-display);font-size:clamp(1.2rem,2vw,1.6rem);font-weight:600;line-height:1.3;margin-bottom:1rem">
+          "Wenn der Garten fertig ist und man ihn das erste Mal so sieht – <em style="color:var(--primary)">dieses Gefühl beschreibt man nicht mit Worten.</em>"
+        </p>
+        <p style="font-size:.9rem;color:var(--text-secondary);line-height:1.75">
+          Das ist der Moment, für den wir arbeiten. Über 500 Garten-Projekte in Karlsruhe und Umgebung haben wir realisiert – und jedes einzelne davon mit dem gleichen Anspruch an Qualität und Detailliebe.
+        </p>
+      </div>
+    </div>
+
+    <div class="reviews-grid">
+      <div class="review-card" data-reveal="up" data-delay="1">
+        <div class="review-stars" aria-label="5 Sterne">★★★★★</div>
+        <p class="review-text">"Frau Stoll hat unseren vernachlässigten Garten in Durlach komplett umgestaltet. Die Pflanzen sind wunderschön und alles wurde genau so realisiert, wie wir es uns vorgestellt haben. Wirklich beeindruckend!"</p>
+        <div class="review-author">
+          <div class="review-avatar" aria-hidden="true">M</div>
+          <div>
+            <div class="review-name">Martina K.</div>
+            <div class="review-date">Karlsruhe-Durlach · 2024</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card" data-reveal="up" data-delay="2">
+        <div class="review-stars" aria-label="5 Sterne">★★★★★</div>
+        <p class="review-text">"Wir kaufen seit Jahren unsere Rosen und Schnittblumen bei Gärtnerei Stoll. Die Qualität ist unvergleichbar besser als im Supermarkt. Besonders die Rosenauswahl ist in Karlsruhe einzigartig."</p>
+        <div class="review-author">
+          <div class="review-avatar" aria-hidden="true">T</div>
+          <div>
+            <div class="review-name">Thomas R.</div>
+            <div class="review-date">Karlsruhe-Grötzingen · 2024</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card" data-reveal="up" data-delay="3">
+        <div class="review-stars" aria-label="5 Sterne">★★★★★</div>
+        <p class="review-text">"Die Beratung war persönlich, herzlich und kompetent. Kein Verkaufsdruck, keine leeren Versprechen – nur echtes Fachwissen. Unser Garten in Ettlingen sieht jetzt aus wie aus einem Magazin."</p>
+        <div class="review-author">
+          <div class="review-avatar" aria-hidden="true">S</div>
+          <div>
+            <div class="review-name">Sabine L.</div>
+            <div class="review-date">Ettlingen · 2023</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews-google" data-reveal="up">
+      <a href="https://maps.google.com/?q=Gartengestaltung+Stoll+Karlsruhe" target="_blank" rel="noopener noreferrer" class="google-badge" aria-label="Alle Google-Bewertungen ansehen">
+        <svg width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+        Alle Bewertungen auf Google ansehen →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   EINSATZGEBIET
+══════════════════════════════ -->
+<section class="section gebiet" id="einsatzgebiet" aria-label="Einzugsgebiet Karlsruhe">
+  <div class="container">
+    <div class="gebiet-inner">
+      <div class="gebiet-text" data-reveal="left">
+        <div>
+          <span class="label">Unser Einzugsgebiet</span>
+          <h2 class="section-title" style="margin-top:.7rem">
+            Gartengestaltung in<br>
+            <em style="color:var(--primary);font-style:italic">Karlsruhe & Region</em>
+          </h2>
+        </div>
+        <p style="color:var(--text-secondary);line-height:1.8">
+          Wir sind Ihr Gärtner in Karlsruhe, Ettlingen, Pfinztal, Rheinstetten, Stutensee, Bruchsal und dem gesamten Landkreis Karlsruhe. Ob Grötzingen, Durlach, Hagsfeld, Neureut oder Mühlburg – wir kommen zu Ihnen.
+        </p>
+        <div class="gebiet-tags" role="list" aria-label="Städte im Einzugsgebiet">
+          <span class="g-tag primary-tag" role="listitem">Karlsruhe-Durlach</span>
+          <span class="g-tag primary-tag" role="listitem">Karlsruhe</span>
+          <span class="g-tag" role="listitem">Ettlingen</span>
+          <span class="g-tag" role="listitem">Rheinstetten</span>
+          <span class="g-tag" role="listitem">Pfinztal</span>
+          <span class="g-tag" role="listitem">Stutensee</span>
+          <span class="g-tag" role="listitem">Bruchsal</span>
+          <span class="g-tag" role="listitem">Grötzingen</span>
+          <span class="g-tag" role="listitem">Wolfartsweier</span>
+          <span class="g-tag" role="listitem">Stupferich</span>
+          <span class="g-tag" role="listitem">Hagsfeld</span>
+          <span class="g-tag" role="listitem">Neureut</span>
+          <span class="g-tag" role="listitem">Mühlburg</span>
+          <span class="g-tag" role="listitem">Knielingen</span>
+          <span class="g-tag" role="listitem">Berghausen</span>
+          <span class="g-tag" role="listitem">Palmbach</span>
+          <span class="g-tag" role="listitem">Rastatt</span>
+          <span class="g-tag" role="listitem">Malsch</span>
+        </div>
+        <a href="#kontakt" class="btn btn-primary btn-arrow" style="margin-top:.4rem">Anfrage für meine Region</a>
+      </div>
+
+      <div class="gebiet-radar" data-reveal="right" aria-hidden="true">
+        <div class="radar-ring" style="width:90%;height:90%;top:5%;left:5%;opacity:.06"></div>
+        <div class="radar-ring" style="width:66%;height:66%;top:17%;left:17%;opacity:.1"></div>
+        <div class="radar-ring" style="width:42%;height:42%;top:29%;left:29%;opacity:.18"></div>
+        <div class="radar-center">Karlsruhe<br>Durlach</div>
+        <!-- Gebietspunkte -->
+        <div style="position:absolute;font-size:.65rem;color:var(--text-muted);top:15%;left:50%;transform:translateX(-50%)">Stutensee</div>
+        <div style="position:absolute;font-size:.65rem;color:var(--text-muted);bottom:15%;left:50%;transform:translateX(-50%)">Ettlingen</div>
+        <div style="position:absolute;font-size:.65rem;color:var(--text-muted);left:5%;top:50%;transform:translateY(-50%)">Rheinstetten</div>
+        <div style="position:absolute;font-size:.65rem;color:var(--text-muted);right:2%;top:50%;transform:translateY(-50%)">Pfinztal</div>
+        <div style="position:absolute;font-size:.65rem;color:var(--primary);top:28%;right:22%">Grötzingen</div>
+        <div style="position:absolute;font-size:.65rem;color:var(--primary);bottom:28%;right:22%">Wolfartsweier</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   FAQ
+══════════════════════════════ -->
+<section class="section section-surface" id="faq" aria-label="Häufige Fragen">
+  <div class="container" style="max-width:860px">
+    <div style="text-align:center;margin-bottom:clamp(40px,5vw,64px)" data-reveal="up">
+      <span class="label">Häufige Fragen</span>
+      <h2 class="section-title" style="margin-top:.7rem">
+        Alles was Sie wissen<br>
+        <em style="color:var(--primary);font-style:italic">möchten</em>
+      </h2>
+    </div>
+
+    <div class="faq-grid">
+      <div class="faq-item" data-reveal="up" data-delay="1">
+        <button class="faq-q" aria-expanded="false" aria-controls="faq1">
+          Was kostet eine Gartengestaltung in Karlsruhe?
+          <div class="faq-icon" aria-hidden="true">+</div>
+        </button>
+        <div class="faq-a" id="faq1" role="region">
+          <div class="faq-a-inner">
+            Die Kosten einer Gartengestaltung in Karlsruhe sind sehr individuell – sie hängen von der Größe des Gartens, dem Umfang der Arbeit und den gewünschten Pflanzen ab. Als Orientierung: Eine professionelle Neugestaltung mit hochwertigen Pflanzen aus eigenem Anbau beginnt typischerweise bei etwa 1.500 €. Für ein unverbindliches und kostenloses Angebot kommen wir gerne zu Ihnen vor Ort in Karlsruhe und Umgebung.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item" data-reveal="up" data-delay="2">
+        <button class="faq-q" aria-expanded="false" aria-controls="faq2">
+          Wie lange dauert die Umgestaltung eines Gartens?
+          <div class="faq-icon" aria-hidden="true">+</div>
+        </button>
+        <div class="faq-a" id="faq2" role="region">
+          <div class="faq-a-inner">
+            Die Dauer hängt vom Umfang des Projekts ab. Eine Teilumgestaltung kann innerhalb eines Tages erfolgen, eine vollständige Neuanlage eines mittelgroßen Gartens dauert typischerweise 2–5 Tage. Nach dem ersten Gespräch und der Planung geben wir Ihnen eine klare Zeitschätzung. Wir planen den Ausführungstermin passend zu Ihrer Verfügbarkeit und der idealen Pflanzzeit.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item" data-reveal="up" data-delay="3">
+        <button class="faq-q" aria-expanded="false" aria-controls="faq3">
+          Kommen Sie auch nach Ettlingen, Rheinstetten oder Pfinztal?
+          <div class="faq-icon" aria-hidden="true">+</div>
+        </button>
+        <div class="faq-a" id="faq3" role="region">
+          <div class="faq-a-inner">
+            Ja, selbstverständlich. Wir sind im gesamten Raum Karlsruhe aktiv – von Durlach, Grötzingen und Hagsfeld bis nach Ettlingen, Rheinstetten, Pfinztal, Stutensee und Bruchsal. Auch nach Rastatt und Malsch kommen wir auf Anfrage. Kontaktieren Sie uns einfach mit Ihrer Adresse und wir bestätigen die Verfügbarkeit.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item" data-reveal="up" data-delay="1">
+        <button class="faq-q" aria-expanded="false" aria-controls="faq4">
+          Kann ich Schnittblumen und Rosen direkt bei Ihnen kaufen?
+          <div class="faq-icon" aria-hidden="true">+</div>
+        </button>
+        <div class="faq-a" id="faq4" role="region">
+          <div class="faq-a-inner">
+            Ja! Wir züchten viele verschiedene Sorten von Schnittblumen – besonders Rosen in außergewöhnlicher Vielfalt. Diese können Sie direkt bei uns in Karlsruhe-Durlach (Im Emsbühl 1) erwerben oder über unseren Lieferservice zu sich nach Hause liefern lassen. Rufen Sie uns gerne an um die aktuelle Auswahl zu erfragen: (0721) 41384.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item" data-reveal="up" data-delay="2">
+        <button class="faq-q" aria-expanded="false" aria-controls="faq5">
+          Bieten Sie auch regelmäßige Gartenpflege in Karlsruhe an?
+          <div class="faq-icon" aria-hidden="true">+</div>
+        </button>
+        <div class="faq-a" id="faq5" role="region">
+          <div class="faq-a-inner">
+            Ja, neben der einmaligen Gartengestaltung bieten wir auch regelmäßige Gartenpflege im Raum Karlsruhe an. Dazu gehören Heckenschnitt, Rückschnitt, Unkrautentfernung, Düngung und saisonale Bepflanzung. Viele unserer Kunden nutzen diesen Service dauerhaft – so bleibt Ihr Garten das ganze Jahr über schön, ohne dass Sie sich selbst darum kümmern müssen.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item" data-reveal="up" data-delay="3">
+        <button class="faq-q" aria-expanded="false" aria-controls="faq6">
+          Welche Pflanzen eignen sich für den Karlsruher Raum besonders?
+          <div class="faq-icon" aria-hidden="true">+</div>
+        </button>
+        <div class="faq-a" id="faq6" role="region">
+          <div class="faq-a-inner">
+            Karlsruhe liegt in einer der wärmsten Klimaregionen Deutschlands – das eröffnet viele Möglichkeiten. Besonders gut geeignet sind mediterrane Stauden wie Lavendel, Salbei und Katzenminze, aber auch Rosen gedeihen hier prächtig. Weil wir unsere Pflanzen selbst anbauen, sind sie bereits an das lokale Klima angepasst. In der kostenlosen Beratung empfehlen wir die idealen Arten für Ihren Garten und Standort.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item" data-reveal="up" data-delay="1">
+        <button class="faq-q" aria-expanded="false" aria-controls="faq7">
+          Wie schnell kann ich einen Termin bekommen?
+          <div class="faq-icon" aria-hidden="true">+</div>
+        </button>
+        <div class="faq-a" id="faq7" role="region">
+          <div class="faq-a-inner">
+            Wir melden uns in der Regel innerhalb von 24 Stunden auf Ihre Anfrage. Den ersten Beratungstermin vor Ort vereinbaren wir je nach Auslastung meist innerhalb von 1–2 Wochen. In der Hauptsaison (April bis Oktober) empfehlen wir, frühzeitig anzufragen. Rufen Sie uns direkt an für die schnellste Terminvereinbarung: (0721) 41384.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item" data-reveal="up" data-delay="2">
+        <button class="faq-q" aria-expanded="false" aria-controls="faq8">
+          Kann ich Gartenpflanzen auch ohne Gestaltungsauftrag kaufen?
+          <div class="faq-icon" aria-hidden="true">+</div>
+        </button>
+        <div class="faq-a" id="faq8" role="region">
+          <div class="faq-a-inner">
+            Selbstverständlich. Sie können jederzeit zu uns kommen und Pflanzen, Sträucher, Hecken oder Schnittblumen direkt erwerben. Wir beraten Sie gerne, welche Pflanzen für Ihren Standort und Garten am besten passen. Lieferservice nach Karlsruhe und in die Region ist ebenfalls möglich – einfach anrufen und Liefertermin vereinbaren.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   CTA BAND
+══════════════════════════════ -->
+<section class="cta-band" aria-label="Jetzt anfragen">
+  <div class="container cta-band-content">
+    <div data-reveal="up">
+      <span class="label">Ihr nächster Schritt</span>
+      <h2>
+        Ihr Garten wartet.<br>
+        <em>Wir auch.</em>
+      </h2>
+      <p>
+        Erzählen Sie uns von Ihrem Garten – und wir zeigen Ihnen, was möglich ist. Kostenlos, persönlich, in Karlsruhe.
+      </p>
+      <div class="cta-band-btns">
+        <a href="#kontakt" class="btn btn-primary btn-arrow" style="font-size:1rem;padding:1.05rem 2.2rem" aria-label="Kostenloses Angebot anfragen">
+          Kostenloses Angebot anfragen
+        </a>
+        <a href="tel:+4972141384" class="btn btn-outline" style="font-size:1rem;padding:1.05rem 2.2rem" aria-label="Jetzt anrufen">
+          ☎ (0721) 41384
+        </a>
+      </div>
+      <p style="font-size:.8rem;color:var(--text-muted);margin-top:1rem">
+        Kostenlos · Unverbindlich · Antwort innerhalb von 24h
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   KONTAKT
+══════════════════════════════ -->
+<section class="section" id="kontakt" aria-label="Kontakt und Anfrage">
+  <div class="container">
+    <div style="margin-bottom:clamp(40px,5vw,64px)" data-reveal="up">
+      <span class="label">Kontakt</span>
+      <h2 class="section-title" style="margin-top:.7rem">
+        Schreiben oder anrufen –<br>
+        <em style="color:var(--primary);font-style:italic">wie Sie mögen.</em>
+      </h2>
+    </div>
+
+    <div class="kontakt-grid">
+      <div class="kontakt-info" data-reveal="left">
+        <div class="k-block">
+          <h4>Adresse</h4>
+          <p>
+            <strong>Gartengestaltung Stoll</strong><br>
+            Im Emsbühl 1<br>
+            76227 Karlsruhe-Durlach
+          </p>
+          <p style="font-size:.82rem;margin-top:.4rem;color:var(--text-muted)">
+            In Richtung Wolfartsweier bis zur Straßenbahnhaltestelle Zündhütle. Direkt davor rechts abbiegen.
+          </p>
+        </div>
+        <div class="k-block">
+          <h4>Telefon & E-Mail</h4>
+          <p>
+            <a href="tel:+4972141384"><strong>(0721) 41384</strong></a><br>
+            <a href="tel:+4917572149056">Mobil: 0175 7214956</a><br>
+            <a href="tel:+497214041220">Fax: (0721) 404122</a>
+          </p>
+          <p><a href="mailto:info@gartengestaltung-stoll.de">info@gartengestaltung-stoll.de</a></p>
+        </div>
+        <div class="k-block">
+          <h4>Öffnungszeiten</h4>
+          <div class="k-hours">
+            <div class="k-hour-row"><span>Montag – Freitag</span><span>08:00 – 17:00 Uhr</span></div>
+            <div class="k-hour-row"><span>Samstag</span><span>08:00 – 13:00 Uhr</span></div>
+            <div class="k-hour-row"><span>Sonntag</span><span>Geschlossen</span></div>
+          </div>
+        </div>
+        <div class="k-block">
+          <a href="https://maps.google.com/?q=Im+Emsbühl+1,+76227+Karlsruhe" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width:fit-content" aria-label="Route auf Google Maps anzeigen">
+            📍 Route auf Google Maps
+          </a>
+        </div>
+      </div>
+
+      <div class="kontakt-form" data-reveal="right">
+        <h3 style="font-family:var(--font-display);font-size:1.3rem;font-weight:600;margin-bottom:1.6rem">
+          Kostenloses Angebot anfragen
+        </h3>
+        <div class="form-cols">
+          <div class="form-row">
+            <label for="name">Ihr Name *</label>
+            <input type="text" id="name" name="name" placeholder="Max Mustermann" required autocomplete="name"/>
+          </div>
+          <div class="form-row">
+            <label for="telefon">Telefon *</label>
+            <input type="tel" id="telefon" name="telefon" placeholder="0721 ..." required autocomplete="tel"/>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" name="email" placeholder="ihre@email.de" autocomplete="email"/>
+        </div>
+        <div class="form-row">
+          <label for="leistung">Gewünschte Leistung *</label>
+          <select id="leistung" name="leistung" required>
+            <option value="" disabled selected>Bitte wählen...</option>
+            <option value="neuanlage">Gartengestaltung & Neuanlage</option>
+            <option value="umgestaltung">Garten-Umgestaltung</option>
+            <option value="pflege">Gartenpflege & Heckenschnitt</option>
+            <option value="schnittblumen">Schnittblumen & Rosen</option>
+            <option value="pflanzen">Gartenpflanzen kaufen</option>
+            <option value="lieferservice">Lieferservice</option>
+            <option value="beratung">Erstberatung (kostenlos)</option>
+            <option value="sonstiges">Sonstiges</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="adresse">Adresse des Gartens</label>
+          <input type="text" id="adresse" name="adresse" placeholder="Straße, Ort" autocomplete="street-address"/>
+        </div>
+        <div class="form-row">
+          <label for="nachricht">Kurze Beschreibung</label>
+          <textarea id="nachricht" name="nachricht" placeholder="Beschreiben Sie Ihren Garten und Ihre Wünsche..."></textarea>
+        </div>
+        <button type="button" class="btn btn-primary btn-arrow form-submit" id="submitBtn" aria-label="Kostenloses Angebot anfragen">
+          Kostenloses Angebot anfragen
+        </button>
+        <p class="form-privacy">
+          Mit dem Absenden stimmen Sie unserer <a href="/datenschutz.html">Datenschutzerklärung</a> zu.
+          Ihre Daten werden nicht an Dritte weitergegeben.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   FOOTER
+══════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-main">
+      <div class="footer-brand" data-reveal="up">
+        <div class="footer-brand-name">Gärtnerei Stoll</div>
+        <p>Familiengeführte Gärtnerei in Karlsruhe-Durlach. Gartengestaltung, Gartenpflege und Schnittblumen aus eigenem Anbau seit über 25 Jahren.</p>
+        <div class="footer-badges">
+          <div class="f-badge">Familienunternehmen</div>
+          <div class="f-badge">Eigener Anbau</div>
+          <div class="f-badge">Karlsruhe-Durlach</div>
+        </div>
+      </div>
+
+      <div class="footer-col" data-reveal="up" data-delay="1">
+        <h5>Leistungen</h5>
+        <ul>
+          <li><a href="#leistungen">Gartengestaltung Karlsruhe</a></li>
+          <li><a href="#leistungen">Garten-Umgestaltung</a></li>
+          <li><a href="#leistungen">Gartenpflege & Heckenschnitt</a></li>
+          <li><a href="#leistungen">Schnittblumen & Rosen</a></li>
+          <li><a href="#leistungen">Gartenpflanzen kaufen</a></li>
+          <li><a href="#leistungen">Lieferservice Karlsruhe</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col" data-reveal="up" data-delay="2">
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="#">Startseite</a></li>
+          <li><a href="#ueber-uns">Über uns</a></li>
+          <li><a href="#referenzen">Referenzen</a></li>
+          <li><a href="#bewertungen">Bewertungen</a></li>
+          <li><a href="#einsatzgebiet">Einzugsgebiet</a></li>
+          <li><a href="#faq">Häufige Fragen</a></li>
+          <li><a href="#kontakt">Kontakt & Anfrage</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col" data-reveal="up" data-delay="3">
+        <h5>Kontakt</h5>
+        <div class="footer-contact-item">
+          <span>📍</span>
+          <span>Im Emsbühl 1, 76227 Karlsruhe-Durlach</span>
+        </div>
+        <div class="footer-contact-item">
+          <span>📞</span>
+          <a href="tel:+4972141384">(0721) 41384</a>
+        </div>
+        <div class="footer-contact-item">
+          <span>📱</span>
+          <a href="tel:+4917572149056">0175 7214956</a>
+        </div>
+        <div class="footer-contact-item">
+          <span>✉</span>
+          <a href="mailto:info@gartengestaltung-stoll.de">info@gartengestaltung-stoll.de</a>
+        </div>
+        <div style="margin-top:1rem;font-size:.82rem;color:var(--text-muted)">
+          Mo–Fr: 08:00–17:00 Uhr<br>
+          Sa: 08:00–13:00 Uhr
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Gartengestaltung Stoll, Im Emsbühl 1, 76227 Karlsruhe-Durlach · Gartengestaltung Karlsruhe</p>
+      <div class="footer-bottom-links">
+        <a href="/impressum.html">Impressum</a>
+        <a href="/datenschutz.html">Datenschutz</a>
+        <a href="/agb_lieferbedingungen.html">AGB</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating CTA Mobile -->
+<div class="floating-cta" aria-label="Schnellkontakt">
+  <a href="#kontakt" class="floating-angebot" aria-label="Angebot anfragen">Angebot anfragen</a>
+  <a href="tel:+4972141384" class="floating-tel" aria-label="Jetzt anrufen">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.42 2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.18 6.18l1-1a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+</div>
+
+<!-- ══════════════════════════════
+   JAVASCRIPT
+══════════════════════════════ -->
+<script>
+(function(){
+  'use strict';
+
+  /* ── Custom Cursor ── */
+  var dot = document.getElementById('cursorDot');
+  var ring = document.getElementById('cursorRing');
+  if(dot && ring && window.matchMedia('(hover:hover)').matches){
+    dot.style.willChange='transform';
+    ring.style.willChange='transform';
+    document.addEventListener('mousemove',function(e){
+      var x=e.clientX, y=e.clientY;
+      var t='translate3d('+x+'px,'+y+'px,0) translate(-50%,-50%)';
+      dot.style.transform=t;
+      ring.style.transform=t;
+    },{ passive:true });
+    document.querySelectorAll('a,button,.l-card,.ref-card,.faq-q,.g-tag').forEach(function(el){
+      el.addEventListener('mouseenter',function(){document.body.classList.add('link-hover')});
+      el.addEventListener('mouseleave',function(){document.body.classList.remove('link-hover')});
+    });
+  }
+
+  /* ── Navigation scroll ── */
+  var nav = document.getElementById('mainNav');
+  function handleScroll(){
+    if(window.scrollY > 60){ nav.classList.add('stuck'); }
+    else { nav.classList.remove('stuck'); }
+  }
+  window.addEventListener('scroll',handleScroll,{passive:true});
+  handleScroll();
+
+  /* ── Mobile Menu ── */
+  var burger = document.getElementById('burgerBtn');
+  var mobileMenu = document.getElementById('mobileMenu');
+  var mobLinks = document.querySelectorAll('.mob-link');
+  function closeMobile(){
+    burger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+    mobileMenu.setAttribute('aria-hidden','true');
+    document.body.style.overflow='';
+  }
+  burger.addEventListener('click',function(){
+    var isOpen = burger.classList.toggle('open');
+    mobileMenu.classList.toggle('open');
+    mobileMenu.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+  mobLinks.forEach(function(l){ l.addEventListener('click',closeMobile); });
+
+  /* ── Scroll Reveal ── */
+  var revealEls = document.querySelectorAll('[data-reveal]');
+  var observer = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        entry.target.classList.add('revealed');
+        observer.unobserve(entry.target);
+      }
+    });
+  },{threshold:0.08,rootMargin:'0px 0px -40px 0px'});
+  revealEls.forEach(function(el){ observer.observe(el); });
+
+  /* ── FAQ Accordion ── */
+  var faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach(function(item){
+    var btn = item.querySelector('.faq-q');
+    btn.addEventListener('click',function(){
+      var isOpen = item.classList.contains('open');
+      faqItems.forEach(function(i){ 
+        i.classList.remove('open');
+        i.querySelector('.faq-q').setAttribute('aria-expanded','false');
+      });
+      if(!isOpen){
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded','true');
+      }
+    });
+  });
+
+  /* ── Smooth scroll for internal links ── */
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click',function(e){
+      var target = document.querySelector(this.getAttribute('href'));
+      if(target){
+        e.preventDefault();
+        closeMobile();
+        var offset = nav.offsetHeight + 20;
+        window.scrollTo({top: target.offsetTop - offset, behavior:'smooth'});
+      }
+    });
+  });
+
+  /* ── Form submit feedback ── */
+  var submitBtn = document.getElementById('submitBtn');
+  if(submitBtn){
+    submitBtn.addEventListener('click',function(){
+      var name = document.getElementById('name').value.trim();
+      var tel = document.getElementById('telefon').value.trim();
+      var leistung = document.getElementById('leistung').value;
+      if(!name || !tel || !leistung){
+        submitBtn.style.background='#8B1A1A';
+        submitBtn.textContent='Bitte Pflichtfelder ausfüllen';
+        setTimeout(function(){
+          submitBtn.style.background='';
+          submitBtn.innerHTML='Kostenloses Angebot anfragen <span style="margin-left:.5rem">→</span>';
+        },2200);
+        return;
+      }
+      submitBtn.disabled=true;
+      submitBtn.style.background='var(--secondary)';
+      submitBtn.innerHTML='✓ Anfrage wird gesendet...';
+      setTimeout(function(){
+        submitBtn.innerHTML='✓ Danke! Wir melden uns innerhalb von 24h.';
+      },1200);
+    });
+  }
+
+  /* ── Hover reveal for ref cards ── */
+  var refCards = document.querySelectorAll('.ref-card');
+  refCards.forEach(function(card){
+    card.addEventListener('mouseenter',function(){
+      var overlay = card.querySelector('.ref-overlay');
+      if(overlay) overlay.style.opacity='1';
+    });
+    card.addEventListener('mouseleave',function(){
+      var overlay = card.querySelector('.ref-overlay');
+      if(overlay) overlay.style.opacity='0';
+    });
+  });
+
+})();
+</script>
+</body>
+</html>
